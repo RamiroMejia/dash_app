@@ -3,7 +3,6 @@ from vega_datasets import data
 from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 
-
 data = pd.read_csv("vgsales.csv")
 
 def plot_altair(genre):
